@@ -1,8 +1,73 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
 
-    margin: 0rem;
-    padding: 0rem;  
-    
-    
 }
 
+
+
+body{
+
+    margin: 0;
+    padding: 0;  
+    overflow: hidden;
+  
+}
+    
+/* navbar */
+
+.container-navbar{
+    height: 4rem;
+    width: 100%;
+    
+    display: flex;
+
+}
+
+.container-navbar h3{
+    margin: 0.8rem;
+    margin-left: 28rem;
+    color: rgb(17, 17, 80);
+}
+
+
+.div1{
+    height: 40rem;
+    width: 100%;
+    overflow: scroll;
+    background-color: rgb(235, 232, 232);
+}
+
+.div1 .custom-button {
+    height: 5rem;
+     width: 18rem;
+     font-size: 1.4rem;
+     font-family:Arial, Helvetica, sans-serif; 
+     margin-left: 28rem;
+     margin-top: 3rem;
+    
+
+}
+
+.para1{
+    font-size: 0.8rem;
+    margin-left: 32rem;
+    margin-top: 1rem;
+}
+
+.para2{
+    font-size: 1.4rem;
+    padding-left: 6rem;
+}
+.para3{
+    font-size: 2rem;
+}
+
+
+.div11{
+    height: 14rem;
+    width: 33rem;
+    margin-left: 22.5rem;
+    margin-top: 3rem;
+   
+}
